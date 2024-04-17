@@ -7,7 +7,7 @@ export const PokemonNotFound = () => {
         El Pokemon no existe, intenta con uno nuevo.
       </p>
 
-      <Button color='blue' onClick={() => window.location.reload()}>
+      <Button color='yellow' onClick={() => window.location.reload()}>
         Volver
       </Button>
     </div>
