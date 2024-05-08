@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react";
 
 export const useFetch = (url) => {
@@ -9,7 +8,6 @@ export const useFetch = (url) => {
     error: null,
   });
 
-  // a
   useEffect(() => {
     solicitarAPI();
   }, [url]);
